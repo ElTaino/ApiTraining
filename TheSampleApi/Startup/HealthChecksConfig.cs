@@ -4,7 +4,6 @@ using TheSampleApi.HealthChecks;
 
 namespace TheSampleApi.Startup;
 
-
 public static class HealthChecksConfig
 {
     public static void AddAllHealthChecks(this IServiceCollection services)

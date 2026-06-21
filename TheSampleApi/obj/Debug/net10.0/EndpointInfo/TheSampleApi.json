@@ -32,6 +32,33 @@
         }
       }
     },
+    "/error/{code}": {
+      "get": {
+        "tags": [
+          "TheSampleApi"
+        ],
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Courses": {
       "get": {
         "tags": [
@@ -50,6 +77,18 @@
             "in": "query",
             "schema": {
               "type": "string"
+            }
+          },
+          {
+            "name": "delay",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
             }
           },
           {
@@ -83,6 +122,18 @@
             "name": "id",
             "in": "path",
             "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          },
+          {
+            "name": "delay",
+            "in": "query",
             "schema": {
               "pattern": "^-?(?:0|[1-9]\\d*)$",
               "type": [

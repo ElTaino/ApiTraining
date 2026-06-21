@@ -7,11 +7,16 @@ namespace TheSampleApi.Endpoints
     {
         public static void AddCourseEndpoints(this WebApplication app)
         {
-            app.MapGet("/Courses", (LoadAllCourses));
-            app.MapGet("/Courses/{id}", LoadCourseById);
+            app.MapGet("/Courses", (LoadAllCoursesASync));
+            app.MapGet("/Courses/{id}", LoadCourseByIdASync);
         }
 
-        private static IResult LoadAllCourses(CourseData data, string? courseType, string? search, int maxPrice = -1)
+        private static async Task<IResult> LoadAllCoursesASync(CourseData data, 
+                                                string? 
+                                                courseType,
+                                                string? search,
+                                                int? delay,
+                                                int maxPrice = -1)
         {
             var output = data.Courses;
             if (string.IsNullOrWhiteSpace(courseType) == false)
@@ -30,12 +35,35 @@ namespace TheSampleApi.Endpoints
                 output.RemoveAll(x => x.PriceInUSD > maxPrice);
             }
 
+            if (delay is not null)
+            {
+                // Max delay of 5 minutes (300,000 ms)
+                if (delay > 300000)
+                {
+                    delay = 300000;
+                }
+
+                await Task.Delay((int)delay);
+            }
+
             return Results.Ok(output);
         }
 
-        private static IResult LoadCourseById(CourseData data, int id)
+        private static async Task<IResult> LoadCourseByIdASync(CourseData data, int id, int? delay)
         {
             var output = data.Courses.SingleOrDefault(x => x.id == id);
+
+            if (delay is not null)
+            {
+                // Max delay of 5 minutes (300,000 ms)
+                if (delay > 300000)
+                {
+                    delay = 300000;
+                }
+
+                await Task.Delay((int)delay);
+            }
+
             if (output is null)
             {
                 return Results.NotFound();

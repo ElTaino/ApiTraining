@@ -14,7 +14,9 @@ app.UseHttpsRedirection();
 app.ApplyCorsConfig();
 
 app.MapAllHealthChecks();
+
 app.AddRootEndpoints();
+app.AddErrorEndpoints();
 app.AddCourseEndpoints();
 
 app.Run();
