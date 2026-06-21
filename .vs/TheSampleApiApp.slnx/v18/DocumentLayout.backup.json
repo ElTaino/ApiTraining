@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Demos\\TheSampleApiApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{361A3239-A767-4736-AC47-9456857B4495}|SampleTestUI\\SampleTestUI.csproj|c:\\demos\\thesampleapiapp\\sampletestui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{361A3239-A767-4736-AC47-9456857B4495}|SampleTestUI\\SampleTestUI.csproj|solutionrelative:sampletestui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|c:\\demos\\thesampleapiapp\\thesampleapi\\startup\\dependenciesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|solutionrelative:thesampleapi\\startup\\dependenciesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|c:\\demos\\thesampleapiapp\\thesampleapi\\startup\\corsconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|solutionrelative:thesampleapi\\startup\\corsconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|c:\\demos\\thesampleapiapp\\thesampleapi\\startup\\healthchecksconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|solutionrelative:thesampleapi\\startup\\healthchecksconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|c:\\demos\\thesampleapiapp\\thesampleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|solutionrelative:thesampleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|c:\\demos\\thesampleapiapp\\thesampleapi\\startup\\openapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|solutionrelative:thesampleapi\\startup\\openapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{361A3239-A767-4736-AC47-9456857B4495}|SampleTestUI\\SampleTestUI.csproj|c:\\demos\\thesampleapiapp\\sampletestui\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{361A3239-A767-4736-AC47-9456857B4495}|SampleTestUI\\SampleTestUI.csproj|solutionrelative:sampletestui\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\SampleTestUI\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "SampleTestUI\\Pages\\Home.razor",
-              "ToolTip": "C:\\Demos\\TheSampleApiApp\\SampleTestUI\\Pages\\Home.razor",
-              "RelativeToolTip": "SampleTestUI\\Pages\\Home.razor",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-21T17:48:41.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CorsConfig.cs",
-              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Startup\\CorsConfig.cs",
-              "RelativeDocumentMoniker": "TheSampleApi\\Startup\\CorsConfig.cs",
-              "ToolTip": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Startup\\CorsConfig.cs",
-              "RelativeToolTip": "TheSampleApi\\Startup\\CorsConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T17:44:19.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Program.cs",
-              "RelativeDocumentMoniker": "TheSampleApi\\Program.cs",
-              "ToolTip": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Program.cs",
-              "RelativeToolTip": "TheSampleApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T17:36:54.684Z",
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\SampleTestUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "SampleTestUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Demos\\TheSampleApiApp\\SampleTestUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "SampleTestUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAYwLoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-21T19:25:54.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DependenciesConfig.cs",
-              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Startup\\DependenciesConfig.cs",
-              "RelativeDocumentMoniker": "TheSampleApi\\Startup\\DependenciesConfig.cs",
-              "ToolTip": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Startup\\DependenciesConfig.cs",
-              "RelativeToolTip": "TheSampleApi\\Startup\\DependenciesConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAaAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Program.cs",
+              "RelativeDocumentMoniker": "TheSampleApi\\Program.cs",
+              "ToolTip": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Program.cs",
+              "RelativeToolTip": "TheSampleApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T17:37:03.195Z",
+              "WhenOpened": "2026-06-21T19:16:30.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OpenApiConfig.cs",
-              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Startup\\OpenApiConfig.cs",
-              "RelativeDocumentMoniker": "TheSampleApi\\Startup\\OpenApiConfig.cs",
-              "ToolTip": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Startup\\OpenApiConfig.cs",
-              "RelativeToolTip": "TheSampleApi\\Startup\\OpenApiConfig.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAgAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "HealthChecksConfig.cs",
+              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Startup\\HealthChecksConfig.cs",
+              "RelativeDocumentMoniker": "TheSampleApi\\Startup\\HealthChecksConfig.cs",
+              "ToolTip": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Startup\\HealthChecksConfig.cs",
+              "RelativeToolTip": "TheSampleApi\\Startup\\HealthChecksConfig.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowD0AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T17:37:00.367Z",
+              "WhenOpened": "2026-06-21T19:13:27.428Z",
               "EditorCaption": ""
             }
           ]
