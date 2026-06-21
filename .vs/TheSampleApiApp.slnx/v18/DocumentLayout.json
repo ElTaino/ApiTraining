@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Demos\\TheSampleApiApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AA65185-413C-4769-AB38-B99AF94A4939}|TheSampleApi\\TheSampleApi.csproj|c:\\demos\\thesampleapiapp\\thesampleapi\\endpoints\\coursesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA65185-413C-4769-AB38-B99AF94A4939}|TheSampleApi\\TheSampleApi.csproj|solutionrelative:thesampleapi\\endpoints\\coursesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|c:\\demos\\thesampleapiapp\\thesampleapi\\endpoints\\coursesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|solutionrelative:thesampleapi\\endpoints\\coursesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|c:\\demos\\thesampleapiapp\\thesampleapi\\data\\coursedata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{916858A6-0313-C8D3-48B3-50334DA67A54}|TheSampleApi\\TheSampleApi.csproj|solutionrelative:thesampleapi\\data\\coursedata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "coursedata.json",
+              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Data\\coursedata.json",
+              "RelativeDocumentMoniker": "TheSampleApi\\Data\\coursedata.json",
+              "ToolTip": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Data\\coursedata.json",
+              "RelativeToolTip": "TheSampleApi\\Data\\coursedata.json",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T16:38:29.382Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "TheSampleApi\\Endpoints\\CoursesEndpoints.cs",
               "ToolTip": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Endpoints\\CoursesEndpoints.cs",
               "RelativeToolTip": "TheSampleApi\\Endpoints\\CoursesEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T15:16:36.089Z",
               "EditorCaption": ""

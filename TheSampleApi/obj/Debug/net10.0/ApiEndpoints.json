@@ -34,6 +34,11 @@
         "Name": "search",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "maxPrice",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

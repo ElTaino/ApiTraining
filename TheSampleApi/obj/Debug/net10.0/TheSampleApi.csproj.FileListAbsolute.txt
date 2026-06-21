@@ -34,3 +34,4 @@ C:\Demos\TheSampleApiApp\TheSampleApi\obj\Debug\net10.0\TheSampleApi.pdb
 C:\Demos\TheSampleApiApp\TheSampleApi\obj\Debug\net10.0\TheSampleApi.genruntimeconfig.cache
 C:\Demos\TheSampleApiApp\TheSampleApi\obj\Debug\net10.0\ref\TheSampleApi.dll
 C:\Demos\TheSampleApiApp\TheSampleApi\bin\Debug\net10.0\Data\coursedata.json
+C:\Demos\TheSampleApiApp\TheSampleApi\obj\Debug\net10.0\TheSampleApi.sourcelink.json

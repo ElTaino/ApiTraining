@@ -11,7 +11,7 @@ namespace TheSampleApi.Endpoints
             app.MapGet("/Courses/{id}", LoadCourseById);
         }
 
-        private static IResult LoadAllCourses(CourseData data, string? courseType, string? search)
+        private static IResult LoadAllCourses(CourseData data, string? courseType, string? search, int maxPrice = -1)
         {
             var output = data.Courses;
             if (string.IsNullOrWhiteSpace(courseType) == false)
@@ -23,6 +23,11 @@ namespace TheSampleApi.Endpoints
             {
                 output.RemoveAll(x => !x.CourseName.Contains(search, StringComparison.OrdinalIgnoreCase) &&
                     !x.ShortDescription.Contains(search, StringComparison.OrdinalIgnoreCase));
+            }
+
+            if (maxPrice != -1)
+            {
+                output.RemoveAll(x => x.PriceInUSD > maxPrice);
             }
 
             return Results.Ok(output);
