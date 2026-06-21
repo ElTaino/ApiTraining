@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Demos\\TheSampleApiApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA65185-413C-4769-AB38-B99AF94A4939}|TheSampleApi\\TheSampleApi.csproj|c:\\demos\\thesampleapiapp\\thesampleapi\\endpoints\\coursesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA65185-413C-4769-AB38-B99AF94A4939}|TheSampleApi\\TheSampleApi.csproj|solutionrelative:thesampleapi\\endpoints\\coursesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesEndpoints.cs",
+              "DocumentMoniker": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Endpoints\\CoursesEndpoints.cs",
+              "RelativeDocumentMoniker": "TheSampleApi\\Endpoints\\CoursesEndpoints.cs",
+              "ToolTip": "C:\\Demos\\TheSampleApiApp\\TheSampleApi\\Endpoints\\CoursesEndpoints.cs",
+              "RelativeToolTip": "TheSampleApi\\Endpoints\\CoursesEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:16:36.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
